@@ -2,13 +2,14 @@
 
 namespace tp_validation
 {
+
 //##################################################################################################
 std::string cleanAlphaNumericUnderscore(const std::string& input)
 {
   std::string result;
   result.reserve(input.size());
 
-  const char* d= input.data();
+  const char* d = input.data();
   const char* dMax = d+input.size();
   for(; d<dMax; d++)
   {
