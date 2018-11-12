@@ -3,12 +3,10 @@
 
 #include "tp_validation/Globals.h"
 
-#ifndef TP_VALIDATION_SHARED_EXPORT
 #if defined(TP_VALIDATION_LIBRARY)
 #  define TP_VALIDATION_SHARED_EXPORT TP_EXPORT
 #else
 #  define TP_VALIDATION_SHARED_EXPORT TP_IMPORT
-#endif
 #endif
 
 //##################################################################################################
